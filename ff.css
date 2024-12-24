@@ -1,0 +1,99 @@
+/* כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* צבע רקע כללי */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* קונטיינר מרכזי */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+}
+
+/* כותרת */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* פסקה */
+p {
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* טקסט המתעדכן */
+#totel {
+    font-size: 40px;
+    color: #333;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* עיצוב לכפתורים */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* כפתורים */
+button {
+    padding: 15px 30px;
+    font-size: 55px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* שינוי צבע הכפתורים על פי סוג */
+#blue {
+    background-color: blue;
+}
+
+#porpole {
+    background-color: purple;
+    
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#yello {
+    background-color: yellow;
+    color: black; /* שינוי צבע טקסט כי צהוב על לבן לא נראה */
+}
+
+#pink {
+    background-color: pink;
+}
+
+/* אפקטים כשעוברים מעל הכפתור */
+button:hover {
+    background-color: #555;
+    transform: scale(1.1); /* אפקט הגדלה קטן */
+}
+
+/* אפקטים כשכפתור נלחץ */
+button:active {
+    background-color: #444;
+}
